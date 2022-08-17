@@ -18,5 +18,10 @@ public class FirstResource {
 		return "check with RequestMapping";
 	}
 	
+	@RequestMapping(value = "/manageCicd" , method = RequestMethod.GET)
+	String manageCicd(){
+		return "check with RequestMapping for mangeCicd";
+	}
+	
 
 }
